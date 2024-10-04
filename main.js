@@ -16,8 +16,7 @@ function check(){
         }
     
     }
-    clear()
-  
+    clear()  
 }
 
 function clear(){
