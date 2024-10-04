@@ -13,8 +13,10 @@ function check(){
         }else{
             display.innerHTML=" your not allowed";
         }
+    
     }
     clear()
+    
     
 }
 
