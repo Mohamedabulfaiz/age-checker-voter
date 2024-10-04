@@ -6,6 +6,7 @@ var display= document.getElementById("display");
 function check(){
     if (age.value === "" ){
         error.innerHTML = "enter valid number";
+        display.innerHTML="";
     } else{
         error.innerHTML = "";
         if (age.value >= 18){
@@ -16,8 +17,7 @@ function check(){
     
     }
     clear()
-    
-    
+  
 }
 
 function clear(){
