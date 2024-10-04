@@ -5,7 +5,7 @@ var display= document.getElementById("display");
 
 function check(){
     if (age.value === "" ){
-        error.innerHTML = "enter valid number";
+        error.innerHTML = "Enter valid number";
         display.innerHTML="";
     } else{
         error.innerHTML = "";
