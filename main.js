@@ -10,9 +10,9 @@ function check(){
     } else{
         error.innerHTML = "";
         if (age.value >= 18){
-            display.innerHTML = "your allowed";
+            display.innerHTML = "Congrat, you are eligible";
         }else{
-            display.innerHTML=" your not allowed";
+            display.innerHTML=" oh sorry, you aren't eligible";
         }
     
     }
